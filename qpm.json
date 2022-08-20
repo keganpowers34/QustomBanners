@@ -4,7 +4,7 @@
 	"info": {
 		"name": "Qustom Banners",
 		"id": "QustomBanners",
-		"version": "0.1.0",
+		"version": "0.1.1",
 		"url": null,
 		"additionalData": {
 			"overrideSoName": "libQustomBanners.so"
@@ -13,7 +13,7 @@
 	"dependencies": [
 		{
 			"id": "beatsaber-hook",
-			"versionRange": "=3.8.1",
+			"versionRange": "*",
 			"additionalData": {
 				"extraFiles": [
 					"src/inline-hook"
@@ -22,7 +22,7 @@
 		},
 		{
 			"id": "modloader",
-			"versionRange": "=1.2.3",
+			"versionRange": "*",
 			"additionalData": {}
 		},
 		{
@@ -42,7 +42,7 @@
 		},
 		{
 			"id": "codegen",
-			"versionRange": "^0.22.0",
+			"versionRange": "*",
 			"additionalData": {}
 		}
 	],
